@@ -1,0 +1,42 @@
+.Container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.Title {
+  flex: 0 0 100px;
+  padding: 0 200px;
+  display: flex;
+  background-color: #555d68;
+  align-items: center;
+  justify-content: center;
+}
+
+.Content {
+  flex: 1;
+  display: flex;
+}
+
+.Slider {
+  background-color: #34373b;
+  flex: 0 0 250px;
+}
+
+.Main {
+  flex: 1;
+  position: relative;
+}
+
+.Box {
+  position: absolute;
+  top: 0;
+  /* border: 1px solid red; */
+  background-color: #9b9ead;
+  width: 150px;
+  height: 150px;
+  cursor: move;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

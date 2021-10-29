@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  color: white;
+  background-color: #2b2e33;
+}
+
+select,
+input {
+  color: #2b2e33;
+}
+
+a {
+  color: #61dafb;
+}
