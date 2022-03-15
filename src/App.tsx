@@ -1,11 +1,10 @@
 import { useState } from 'react';
 import './App.css';
-import ImproveArrayRender from './questions/ImproveArrayRender';
 import RunnableFunction from './questions/RunnableFunction';
 import CleanThisComponent from './questions/CleanThisComponent';
 import DynamicArrayRender from './questions/DynamicArrayRender';
 import OptimizeThisRender from './questions/OptimizeThisRender';
-
+import ImproveArrayRender from './answer/improve_array_render';
 const OPTIONS = [
   { label: 'Runnable Function', Component: RunnableFunction },
   { label: 'Clean this component', Component: CleanThisComponent },
@@ -28,7 +27,7 @@ export default function App() {
               <option key={index} value={index}>
                 {index + 1}. {label}
               </option>
-            );
+            ); 
           })}
         </select>
       </div>
