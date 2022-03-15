@@ -4,7 +4,8 @@ import ImproveArrayRender from './questions/ImproveArrayRender';
 import RunnableFunction from './questions/RunnableFunction';
 import CleanThisComponent from './questions/CleanThisComponent';
 import DynamicArrayRender from './questions/DynamicArrayRender';
-import OptimizeThisRender from './questions/OptimizeThisRender';
+// import OptimizeThisRender from './questions/OptimizeThisRender';
+import OptimizeThisRender from './answer/optimize_this_render';
 
 const OPTIONS = [
   { label: 'Runnable Function', Component: RunnableFunction },
