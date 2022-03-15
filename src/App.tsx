@@ -2,9 +2,9 @@ import { useState } from 'react';
 import './App.css';
 import ImproveArrayRender from './questions/ImproveArrayRender';
 import RunnableFunction from './questions/RunnableFunction';
-import CleanThisComponent from './questions/CleanThisComponent';
 import DynamicArrayRender from './questions/DynamicArrayRender';
 import OptimizeThisRender from './questions/OptimizeThisRender';
+import CleanThisComponent from './answer/clean_this_component';
 
 const OPTIONS = [
   { label: 'Runnable Function', Component: RunnableFunction },
